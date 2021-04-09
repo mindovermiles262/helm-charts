@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   base:
   - apiVersion: v1
-    created: "2021-04-09T13:34:48.524272-05:00"
+    created: "2021-04-09T15:20:18.754439-05:00"
     description: Helm chart for deploying Istio cluster resources and CRDs
     digest: 2eb59162bf5646863481a1271543e475dc045f981eb8705a9e1db71d42c3e5f6
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -14,4 +14,53 @@ entries:
     urls:
     - https://mindovermiles262.github.io/helm-charts/base-1.1.0.tgz
     version: 1.1.0
-generated: "2021-04-09T13:34:48.521778-05:00"
+  istio-discovery:
+  - apiVersion: v1
+    appVersion: 1.2.0
+    created: "2021-04-09T15:20:18.756359-05:00"
+    description: Helm chart for istio control plane
+    digest: 6bab5acac4bd821f3cadaeacba153a9d1856cd9fb046abecadd50dba66e1edd6
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istio-discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://mindovermiles262.github.io/helm-charts/istio-discovery-1.2.0.tgz
+    version: 1.2.0
+  istio-egress:
+  - apiVersion: v1
+    created: "2021-04-09T15:20:18.757558-05:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 5aef1213f579c61486b762b8eb1bb2bb6a657891265793de2673120571cc2886
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    name: istio-egress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://mindovermiles262.github.io/helm-charts/istio-egress-1.1.0.tgz
+    version: 1.1.0
+  istio-ingress:
+  - apiVersion: v1
+    created: "2021-04-09T15:20:18.758853-05:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 22a3d90af989f040d078ea909ec30dc61f4d78ff4eb70078bc3b5a3b19eec993
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://mindovermiles262.github.io/helm-charts/istio-ingress-1.1.0.tgz
+    version: 1.1.0
+generated: "2021-04-09T15:20:18.750958-05:00"
