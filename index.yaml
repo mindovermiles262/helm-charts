@@ -1,30 +1,17 @@
 apiVersion: v1
 entries:
-  istio-base:
+  base:
   - apiVersion: v1
-    created: "2021-04-09T09:52:14.924015-05:00"
+    created: "2021-04-09T13:34:48.524272-05:00"
     description: Helm chart for deploying Istio cluster resources and CRDs
-    digest: 1c27480731ac166581109b7426a55ea1e44ae5af9f3abba4a8e0ef7ba50ddf2d
-    icon: https://istio.io/favicons/android-192x192.png
+    digest: 2eb59162bf5646863481a1271543e475dc045f981eb8705a9e1db71d42c3e5f6
+    icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
-    name: istio-base
+    name: base
     sources:
     - http://github.com/istio/istio
     urls:
-    - https://mindovermiles262.github.io/helm-charts/istio-base-1.1.1.tgz
-    version: 1.1.1
-  - apiVersion: v1
-    created: "2021-04-09T09:52:14.921391-05:00"
-    description: Helm chart for deploying Istio cluster resources and CRDs
-    digest: 93ed78903b79e9d89918473334f304cc7c60f0c4107b2365fe155d7fccf2aa0b
-    icon: https://istio.io/favicons/android-192x192.png
-    keywords:
-    - istio
-    name: istio-base
-    sources:
-    - http://github.com/istio/istio
-    urls:
-    - https://mindovermiles262.github.io/helm-charts/istio-base-1.1.0.tgz
+    - https://mindovermiles262.github.io/helm-charts/base-1.1.0.tgz
     version: 1.1.0
-generated: "2021-04-09T09:52:14.91875-05:00"
+generated: "2021-04-09T13:34:48.521778-05:00"
