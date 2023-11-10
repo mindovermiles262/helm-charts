@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  app-1:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-10T02:58:11.695638375Z"
+    description: A Helm chart for Kubernetes
+    digest: f04e87cdd8fe05533ea8c0b5e66e12cafa8d7b22892eb238ce45c0542ece0c04
+    name: app-1
+    type: application
+    urls:
+    - https://github.com/mindovermiles262/helm-charts/releases/download/app-1-0.1.0/app-1-0.1.0.tgz
+    version: 0.1.0
+  app-2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-10T02:58:11.809375058Z"
+    description: A Helm chart for Kubernetes
+    digest: f180a8fc70f7e549612a89525e128137351eda23227262019403d7855547d6c7
+    name: app-2
+    type: application
+    urls:
+    - https://github.com/mindovermiles262/helm-charts/releases/download/app-2-0.1.0/app-2-0.1.0.tgz
+    version: 0.1.0
+  app-3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-10T02:58:11.938519925Z"
+    description: A Helm chart for Kubernetes
+    digest: 7fc48d945ded197db74ad3c03d3f2f037ca62bf2bfe4dbe44e14d32f48624a2d
+    name: app-3
+    type: application
+    urls:
+    - https://github.com/mindovermiles262/helm-charts/releases/download/app-3-0.1.0/app-3-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-10T02:58:11.938526625Z"
